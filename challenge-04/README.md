@@ -57,17 +57,25 @@ var carro = { marca: "JavaScript", modelo: "HTML", placa: "HTTP:192", ano: 1998,
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
-?
+function mudarCor (novaCor) {
+	carro.cor = novaCor;
+	return console.log("A nova cor do carro é: " + carro.cor);
+}
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
-?
+function obterCor (mostraCor) {
+	return carro.cor;
+}
+obterCor(carro.cor);
 
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
-?
+function obterModelo ( mostraModelo ) { 
+    return carro.modelo;
+}
 
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
