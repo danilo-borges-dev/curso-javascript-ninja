@@ -117,7 +117,13 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 - Se couber somente mais uma pessoa, mostrar a palavra "pessoa" no retorno
 citado acima, no lugar de "pessoas".
 */
-?
+﻿
+﻿
+        carro.assentos += totalPessoas;
+carro.ocuparAcento = function ( totalPessoas ) {
+    if ( totalPessoas <= carro.assentos ) {
+        carro.assentos += totalPessoas;
+
 
 /*
 Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
