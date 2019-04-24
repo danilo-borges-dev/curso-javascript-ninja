@@ -51,7 +51,15 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `assentos` - Number - cinco por padrão
 - `quantidadePessoas` - Number - zero por padrão
 */
-var carro = { marca: "JavaScript", modelo: "HTML", placa: "HTTP:192", ano: 1998, cor: "Black-Yellow", quantasPortas: 4, assentos: 5, quantidadePessoas: 0 };
+var carro = { marca: "JavaScript", 
+              modelo: "HTML", 
+              placa: "HTTP:192", 
+              ano: 1998, 
+              cor: "Black-Yellow", 
+              quantasPortas: 4, 
+              assentos: 5, 
+              quantidadePessoas: 0
+            };
 
 /*
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
