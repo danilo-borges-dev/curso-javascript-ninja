@@ -119,10 +119,7 @@ citado acima, no lugar de "pessoas".
 */
 ﻿
 ﻿
-        carro.assentos += totalPessoas;
-carro.ocuparAcento = function ( totalPessoas ) {
-    if ( totalPessoas <= carro.assentos ) {
-        carro.assentos += totalPessoas;
+        
 
 
 /*
@@ -133,22 +130,22 @@ retornar algum valor.
 
 Qual a cor atual do carro?
 */
-?
+carro.obterCor(); //"Black-Yellow"
 
 // Mude a cor do carro para vermelho.
-?
+carro.mudarCor("vermelho");
 
 // E agora, qual a cor do carro?
-?
+carro.obterCor(); //"vermelho"
 
 // Mude a cor do carro para verde musgo.
-?
+carro.mudarCor("verde-musgo");
 
 // E agora, qual a cor do carro?
-?
+carro.obterCor(); //"verde-musgo"
 
 // Qual a marca e modelo do carro?
-?
+carro.obterMarcaModelo(); //"Este carro é um HTML, JavaScript."
 
 // Adicione 2 pessoas no carro.
 ?
