@@ -18,7 +18,7 @@ soma++;
 soma *= 3;
 
 // Qual é o valor da variável `soma` até aqui?
-"Valor é: 69"
+"Valor é: 72"
 
 // Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
 let souNinja = true;
